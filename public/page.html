@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Helper</title>
+    <link rel = "stylesheet" href = "style.css">
+</head>
+<body>
+    <div id="TimerFrame"class="Frames">
+        <span id="check"style="font-size: 30px;">DeadLine:</span>
+        <input id="Timer" class="whatToAdd" placeholder="dd/mm/yyyy">
+        <span id="Timer1" class="whatToAdd hidden"></span>
+        <button class="buttons" id="deadLineSubmit">Submit</button>
+        <button class="buttons hidden" id="deadLineReset">Reset</button>
+    </div>
+    <div id="addButton" class="FramesU">
+        <input id="nameList" class="whatToAdd" placeholder="Task">
+        <button id="DeleteAll"class="buttons">Delete All</button>
+        <button class="buttons addListButton">Add List</button>
+        <div id="Residents" class="Frames">
+            <select id="amountResidents">
+                <option value="">select</option>
+                <option value="1">2 residents</option>
+                <option value="2">3 residents</option>
+                <option value="3">4 residents</option>
+                <option value="4">5 residents</option>
+                <option value="5">6 residents</option>
+                <option value="6">7 residents</option>
+                <option value="7">8 residents</option>
+            </select>
+            <button class="buttons" id="submitAmount">Select</button>
+            <button class="buttons hidden" id="changeAmount">Change</button>
+            <button class="buttons hidden" id="acceptAll">Accept All</button>
+        </div>
+    </div>
+    <div id="searchSystem" class="Frames">
+        <select id="colorFilter">
+            <option value="">All colors</option>
+            <option value="1">Light Red</option>
+            <option value="2">Light Green</option>
+            <option value="3">Purple</option>
+            <option value="4">Cyan</option>
+        </select>
+        <select id="searchByOwner" class="hidden">
+            <option value="">Holder search</option>
+        </select>
+        <button class="buttons hidden" id="updateButton">Update</button>
+        <button class="buttons" id="searchButton">Search</button>
+        <button class="buttons hidden" id="deleteButton">Delete Holders</button>
+    </div>
+</body>
+    <script src="scripts.js"></script>
+</html> 
