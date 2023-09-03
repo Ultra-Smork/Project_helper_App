@@ -98,6 +98,7 @@ body{
     padding-left: 5px;
     border: 2px solid;
     border-radius: 12px;
+    font-family: cursive;
 }
 
 .checkBox{
@@ -232,4 +233,8 @@ body{
     width:  72.5px;
     left: -5px;
     top: 60px;
+}
+
+#nameList{
+    width: 80%;
 }
