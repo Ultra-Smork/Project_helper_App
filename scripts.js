@@ -1,13 +1,3 @@
-/*  1. Чистый JS
-    2. отсутсвие знаний css
-    3. отсутвие знаний возможностей html
-
-    Как подать:
-    1. проблема: сложно всегда знать где твои задания как участника проекта
-    Следующий проект : (React + express.js + mongoDb)
-*/
-
-
 const Body = document.querySelector("body");
 const nameList = document.querySelector("#nameList");
 const DeleteAll = document.querySelector("#DeleteAll");
