@@ -9,7 +9,7 @@ const port = 3000; // for example
 app.use(express.static('public'));
 
 app.get('/', (req, res) => {
-    const filePath = path.join(__dirname, 'public', 'page.html');
+    const filePath = path.join(__dirname, 'public', 'index.html');
     res.sendFile(filePath, (err) => {
         if (err) {
             console.error(err);
